@@ -1,7 +1,7 @@
 var ruta=require("express").Router();
 
 ruta.get("/",(req, res)=>{
-    res.render("Inicio");
+    res.render("inicio");
 });
 
 ruta.get("/login",(req, res)=>{
